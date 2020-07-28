@@ -1,0 +1,113 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "037ef7516a15c95697d28ae5a84ffcaa",
+    "packages": [
+        {
+            "name": "clancats/hydrahon",
+            "version": "v1.1.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ClanCats/Hydrahon.git",
+                "reference": "cc2fc3fd2ea082a2d531a751da49cc6a413270cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ClanCats/Hydrahon/zipball/cc2fc3fd2ea082a2d531a751da49cc6a413270cd",
+                "reference": "cc2fc3fd2ea082a2d531a751da49cc6a413270cd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ClanCats\\Hydrahon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mario Döring",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Fast & standalone PHP MySQL Query Builder library.",
+            "homepage": "https://github.com/ClanCats/Hydrahon",
+            "keywords": [
+                "builder",
+                "database",
+                "mysql",
+                "query",
+                "sqlite"
+            ],
+            "time": "2019-09-19T10:59:20+00:00"
+        },
+        {
+            "name": "jarouche/viacep",
+            "version": "v1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rjarouche/buscaviacep.git",
+                "reference": "c1396de696c16c85db0e124a9e7cf9146901f087"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rjarouche/buscaviacep/zipball/c1396de696c16c85db0e124a9e7cf9146901f087",
+                "reference": "c1396de696c16c85db0e124a9e7cf9146901f087",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jarouche\\ViaCEP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rodrigo Sartori Jarouche",
+                    "email": "rjarouche@gmail.com",
+                    "homepage": "http://rodrigojarouche.blogspot.com.br"
+                }
+            ],
+            "description": "Classe para pesquisar o CEP atraves do servico gratuito viacep",
+            "homepage": "http://rodrigojarouche.blogspot.com.br",
+            "keywords": [
+                "Pesquisa",
+                "cep",
+                "viacep"
+            ],
+            "time": "2020-04-29T18:26:41+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

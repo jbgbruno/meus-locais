@@ -1,0 +1,15 @@
+.localDestacado {
+  background-color: #2f7fae;
+  color: #ffffff;
+}
+
+.buttonSubmit {
+  background-color: #cc9933;
+  color: #ffffff;
+}
+
+.buttonSubmit:hover {
+  background-color: #bb8f37;
+
+  color: #ffffff;
+}

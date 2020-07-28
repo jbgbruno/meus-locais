@@ -1,6 +1,8 @@
 ## Instalação
 Você pode clonar este repositório OU baixar o .zip
 
+O arquivo **SQL** para criação do banco, está na raiz do projeto.
+
 Ao descompactar, é necessário rodar o **composer** pra instalar as dependências e gerar o *autoload*.
 
 Vá até a pasta do projeto, pelo *prompt/terminal* e execute:
